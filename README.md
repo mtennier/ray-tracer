@@ -8,22 +8,36 @@ External libraries: Numpy 1.26.1
 
 You can create a virtual environment to help with running things!
 
-To create:
-	python3 -m venv venv
+### To create:
+```
+python3 -m venv venv
+```
 
-To run:
+### To run:
+Windows: 
+```
+venv\Scripts\activate
+```
+Unix/MacOS: 
+```
+source venv/bin/activate
+```
 
-	On Windows: venv\Scripts\activate
-	On Unix/MacOS: source venv/bin/activate
+### Then to install the requirements:
+```
+python3 -m pip install -r requirements.txt
+```
 
-Then to install the requirements:
-	python3 -m pip install -r requirements.txt
-
-To deactivate the virtual environment (once done running the ray tracer)
-	deactivate
-
-To run the ray tracer:
+### To deactivate the virtual environment (once done running the ray tracer)
+```
+deactivate
+```
+### To run the ray tracer:
+```
 python3 RayTracer.py [path/to/filename.txt]
+```
 
-To run all cases:
+### To run all cases:
+```
 bash all_tests.sh
+```
