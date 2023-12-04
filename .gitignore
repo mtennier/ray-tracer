@@ -1,0 +1,4 @@
+# ignore the pycache
+__pycache__/
+# ignore macos sample files
+DS_Store/
